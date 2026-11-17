@@ -1,0 +1,22 @@
+{
+  "name": "mahasetu-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3004",
+    "build": "next build --webpack",
+    "start": "next start -p 3004"
+  },
+  "dependencies": {
+    "next": "16.4.5",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19"
+  }
+}
